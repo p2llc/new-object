@@ -6,6 +6,10 @@ const car = {
   transmission: "manual",
   drivetrain: "FWD",
   doors: 5,
+  engine: {
+    cylinders: 4,
+    size: 1.6,
+  }
   };
   
   console.log("This is a", car.color);
